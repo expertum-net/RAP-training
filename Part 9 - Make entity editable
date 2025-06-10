@@ -1,0 +1,48 @@
+# Add edit functionality to the service
+
+For adding edig functionality we need to create a behauviour definition for the service 
+
+## adding behaviour 
+
+- Right click the interface view for the hero entity
+- choose new behaviour definition
+![alt text](images/new-behaviour-definition.png)
+- leave all settings as they are 
+    - having the implementation type managed will automatically add CRUD operations to the service
+- **Next**
+![alt text](images/behaviour-definition-popup.png)
+- Choose you transport 
+- **Finish**
+![alt text](images/select-transport.png)
+- add persistent table for the battle entity
+```
+...
+define behavior for ZI_SPH_BATTLE //alias <alias_name>
+persistent table zsph_battle
+lock dependent by _hero
+...
+```
+
+- add mapping for the hero entity
+```
+  ...
+  association _battles { create; }
+
+  mapping for zsph_hero
+    {
+      Alignment = alignment;
+      EyeColor  = eye_color;
+      Gender    = gender;
+      HairColor = hair_color;
+      Height    = height;
+      HeroId    = hero_id;
+      Name      = name;
+      Publisher = publisher;
+      Race      = race;
+      SkinColor = skin_color;
+      Weight    = weight;
+    }
+    ...
+```
+
+- add mapping for the batle entity
