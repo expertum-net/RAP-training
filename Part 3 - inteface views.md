@@ -2,7 +2,7 @@
 In this part we will create interface views. Interface views are are a way to structure, simplify and expose the data from the tables. 
 We will create 2 types of entities 
 - Two root entity (hero universe)
-- Two entities (battle)
+- One entities (battle)
 
 ## creating entities
 The easiest way of creating the entities based on a table is the folllowing
@@ -22,7 +22,7 @@ The easiest way of creating the entities based on a table is the folllowing
 - choose you transport 
 - **Next** (do not choose finish this will save time)
 - On the next screen you can select your template
-    - Define Root View Entity for Hero
+    - Define Root View Entity for Hero and Universe
     - Define View Entity for the others 
 - **Finish**
 ![alt text](image.png)
