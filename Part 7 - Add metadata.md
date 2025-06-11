@@ -27,7 +27,7 @@ We will now annotaions to the different entities with these annotations you defi
 ```
 In this trainint we did not use dedicated data elements on our tables. When they are used they will determine the default labels of fields on the screen
 ```
-- for eacht metadata extension 
+- for each metadata extension 
     - set the metadata layer to #CORE
     - remove the dummy element
     - press crtl + space

@@ -98,7 +98,7 @@ lock dependent by _hero
 ![alt text](images/select-transport.png)
 - activate and check back in your preview, create and delete functions should be available 
 
-## Add an action to your 
+## Add an action
 - open the behaviour implementation for your interface view
 - add the action to the behaviour for the battles
     - ( features: )
